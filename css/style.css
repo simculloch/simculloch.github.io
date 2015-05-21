@@ -1,12 +1,12 @@
+* {margin:0;padding:0;box-sizing:border-box;}
 body{
 	font-family: "Lucida Console", monaco, monospace;
-	color: black;
+	color: #222;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-size: contain; 
 	background-color: rgb(255,255,255);
-	margin: 50px;
-
+	font-size:16px;
 }
 
 header{
@@ -14,23 +14,12 @@ header{
 	text-align: right;
 	color: white;
 	background-color: rgba(0,0,0,1);
-	margin-top: -50px;
-	margin-left: -50px;
-	margin-right: -50px;
-	margin-bottom: -22px;
-	padding-top: 2px;
-	padding-right: 0px;
+	padding:1em;
 }
 
 img{
-	float: top;
 	width: 766px;
 	opacity: .7;
-	margin-top: 0px;
-	margin-left: -50px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	padding: -50px;
 	border-style: none;
 	border-color: rgba(0,0,0,.3);
 
@@ -38,7 +27,6 @@ img{
 
 ul{
 	list-style-type: none;
-	background-size: 200px;
 }
 
 li{
@@ -52,50 +40,29 @@ nav{
 	background-color: rgba(0,0,0,.4);
 	color: white;
 	font-weight: normal;
-	text-align: left;
 	width: 187px;
 	height: 700px;
-	line-height: 25px;
-	margin-top: 0px;
-	margin-left: -50px;
-	margin-right: -50px;
-	margin-bottom: -80px;
-	padding-top: 20px;
-
 }
 
 #slogan{
-	float: right;
-	margin-top: -400px;
-	margin-right: 125px;
 	background-color: rgba(255,255,255,.5);
-	line-height: 50px;
 	text-align: center;
-	color: black;
+	color: #222;
 	font-style: italic;
-
 }
 
 #tagline{
-	float: top;
 	color: white;
 	text-align: right;
-	font-size: 90;
-	line-height: 22px;
+	font-size: 5.5em;
 	background-color: rgba(0,0,0,1);
 	height: 50px;
 	width: 1400px;
 	padding: 10px;
-	margin-top: -3px;
-	margin-left: -50px;
-	margin-right: -70px;
 }
 
 .episodes{
 	text-transform: uppercase;
 	background-color: rgba(0,0,0,.4);
-	line-height: 10;
-	background-size: 100px;
-
 }
 
