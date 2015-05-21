@@ -19,6 +19,9 @@ header{
 section#splash {
 	float:right;
 }
+section#podcasts {
+	clear:both;
+}
 img{
 	display:block;
 	float:left;
