@@ -1,78 +1,124 @@
 * {margin:0;padding:0;box-sizing:border-box;}
+
+@import url(http://fonts.googleapis.com/css?family=Muli);
+@import url(http://fonts.googleapis.com/css?family=Fauna+One);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
 body{
 	font-family: "Lucida Console", monaco, monospace;
 	color: #222;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-size: contain; 
 	background-color: rgb(255,255,255);
 	font-size:16px;
 }
 
 header{
+	background-color: rgba(0,0,0,1);
+	color: white;
+	letter-spacing: .5em;
+	padding:1em;
 	text-transform: lowercase;
 	text-align: right;
-	color: white;
-	background-color: rgba(0,0,0,1);
-	padding:1em;
+	
 }
+
 section#splash {
-	float:right;
+	display: inline-block;
+	float: left;
+	height: 80vh;
 }
-section#podcasts {
-	clear:both;
-}
+
 img{
-	display:block;
-	float:left;
-	width: 766px;
-	opacity: .7;
 	border-style: none;
 	border-color: rgba(0,0,0,.3);
+	clear: right;
+	float: left;
+	width: 766px;
+	opacity: .7;
+
 }
-
-ul{
-	list-style-type: none;
-	margin:1em 0 1em 0;
+/*
+#logo{
+	background-color: rgba(200,250,200,.8);
+	border-radius: 300px;
+	color: #222;
+	clear: right;
+	float: right;
+	font-size: 3em;
+	height: 300px;
+	width: 300px;
+	margin: .5em 0 .5em 0;
+	padding-top: 120px;
+	text-align: center;
+	text-transform: lowercase;
 }
+*/
 
-li{
-	padding: .25em;
-	width: 150px;
-
+#slogan{
+	background-color: rgba(255,255,0,.5);
+	color: #222;
+	clear: right;
+	float: right;
+	font-family: 'Fauna One', serif;
+	font-style: italic;
+	font-size: 1.8em;
+	line-height: 2em;
+	margin-top: 5em;
+	margin-left: 1em;
+	padding-top: 3.0em;
+	height: 10em;
+	width: 10em;
+	border-radius: 10em;
+	text-align: center;
+	
 }
 
 nav{
-	float: right;
-	background-color: rgba(0,0,0,.4);
-	color: white;
-	font-weight: normal;
-	width: 187px;
-	height: 700px;
-}
-
-#slogan{
-	background-color: rgba(255,255,255,.5);
-	text-align: center;
+	background-color: rgba(255,255,255,.4);
 	color: #222;
-	font-style: italic;
-	font-size:3em;
-	float:left;
+	clear: right;
+	font-family: 'Muli', sans-serif;
+	float: right;
+	font-weight: 100;
+	height: 50vh;
+	line-height: 1.5em;
+	text-align: right;
+	width: 187px;
 }
 
-#tagline{
+
+ul{
+	list-style-type: none;
+	margin: 1em 0 2em 0;
+
+}
+
+li{
+	padding: 1em 1em 1em 1em;
+	
+}
+
+section#podcasts {
 	clear:both;
-	background-color: rgba(0,0,0,1);
-	color: white;
-	font-size: 1.5em;
-	line-height:1em;
-	padding: 1em;
-	text-align: right;
-	width: 1400px;
+	font-family: 'Muli', sans-serif;
+
 }
 
 .episodes{
 	text-transform: uppercase;
 	background-color: rgba(0,0,0,.4);
+	width: 33%; 
+
 }
 
+#footer{
+	background-color: rgba(0,0,0,1);
+	clear: both;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1em;
+	letter-spacing: .1em;
+	line-height:1.5em;
+	padding: .1em;
+	text-align: right;
+
+}
