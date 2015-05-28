@@ -23,6 +23,7 @@ section#splash {
 	display: inline-block;
 	float: left;
 	height: 80vh;
+	margin: auto;
 }
 
 img{
