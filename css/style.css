@@ -26,10 +26,9 @@ section#splash {
 	margin: auto;
 }
 
-img{
+#splash img{
 	border-style: none;
 	border-color: rgba(0,0,0,.3);
-	clear: right;
 	float: left;
 	height: 80vh;
 	opacity: .7;
@@ -39,8 +38,7 @@ img{
 #slogan{
 	background-color: rgba(144,178,4,.6);
 	color: rgba(255,255,255,1);
-	clear: right;
-	float: right;
+	float: left;
 	font-family: 'Fauna One', serif;
 	font-style: italic;
 	font-size: 1.8em;
@@ -72,7 +70,7 @@ ul{
 }
 
 li{
-	padding: 1em 1em 1em 1em;
+	padding: 1em;
 }
 
 
@@ -99,22 +97,37 @@ h2{
 }
 
 section#podcasts {
-
 	font-family: 'Muli', sans-serif;
 }
 
 .episodes{
+	float:left;
 	text-transform: uppercase;
-	width: 33%; 
+	width: 33.33%; 
+}
+.episodes img {
+	display:block;
+	float:left;
+	width:50%;
+}
+.episodes div {
+	float:left;
+	padding: 5em 0 0 2em;
+	width:50%;
 }
 
 #latest{
-	height: 20em;
 	background: rgba(0,77,178,.6);
 }
 
 #popular{
-	height: 20em;
 	background: rgba(255,100,83,.6);
 }
 
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
