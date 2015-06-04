@@ -9,6 +9,7 @@ body{
 	color: #222;
 	font-family: "Lucida Console", monaco, monospace;
 	font-size:16px;
+	margin: 0 auto;
 
 }
 
@@ -21,17 +22,41 @@ header{
 	text-align: right;
 }
 
+nav{
+	color: #222;
+	font-family: 'Muli', sans-serif;
+	font-size: 1.2em;
+	font-weight: 100;
+	letter-spacing: .1em;
+	line-height: 1.5em;
+	margin: 0 auto;
+	padding: 1em;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;	
+}
+
+li{
+	display: inline;
+	padding: 1em;
+	width: 50%;
+}
+
 section#splash {
-	display: inline-block;
-	float: left;
-	height: 70vh;
+	clear: both;
+	height: 60vh;
+	margin: 0 auto;
+	max-width: 1100px;
+
 }
 
 #splash img{
 	border-style: none;
 	border-color: rgba(0,0,0,.3);
 	float: left;
-	height: 70vh;
+	height: 100%;
 	opacity: .7;
 
 }
@@ -40,57 +65,28 @@ section#splash {
 	float: left;
 	font-family: 'Fauna One', serif;
 	font-style: italic;
-	font-size: 1.8em;
-	height: 70vh;
+	font-size: 3em;
+	height: 25%;
+	letter-spacing: .1em;
+	padding: 2em 0 0 1.5em;
 	line-height: 2em;
-	padding-top: 5.0em;
-	margin-left: 1.5em;
 	text-align: center;
 	
 }	
 
-nav{
-	color: #222;
-	display: inline;
-	float: right;
-	font-family: 'Muli', sans-serif;
-	font-weight: 100;
-	line-height: 1.5em;
-	margin: 1em 0 2em 0;
-	text-align: right;
-}
-
-ul{
-	list-style-type: none;	
-}
-
-li{
-	padding: 1em;
-	width: 25%;
-	display: inline;
-}
-
-li{
-	padding: 1em;
-}
-
 section#tagline{
-	background-color: rgba(240,60,150,.5);
 	color: #222;
 	clear: both;
 	font-family: 'Muli', sans-serif;
-	font-size: 2em;
+	font-size: 1em;
 	letter-spacing: .1em;
-	line-height: 3.3em;
-	padding: 2em;
-	height: 70vh;
-	
-	text-align: center;
+	line-height: 1.5em;
+	margin-top: 1em;
+	text-align: right;
 
 }
 
 h2{
-	background: rgb(255,255,255);
 	font-size: 2em;
 	padding: .5em;
 	text-align: center;
@@ -100,19 +96,15 @@ h2{
 
 section#podcasts {
 	font-family: 'Muli', sans-serif;
-	background-color: rgba(200,240,80,.7);
+	margin: 0 auto;
+	max-width: 1100px;
+	padding-top: 3em;
+	
 }
 
-section#latest{
-
-}
 
 #latest h2{
 	text-align: left;
-
-}
-
-section#popular{
 
 }
 
@@ -121,19 +113,14 @@ section#popular{
 
 }
 
-section#more{
-
-}
-
 #More h2{
-	text-align: left;
-	
+	text-align: left;	
 }
 
 .episodes{
 	float:left;
 	text-transform: uppercase;
-	width: 33.33%; 
+	width: 25%; 
 }
 
 .episodes img {
@@ -142,15 +129,13 @@ section#more{
 	margin: 1em 0;
 	width:50%;
 }
+
 .episodes div {
 	float:left;
 	padding: 5em 0 0 2em;
 	width: 50%;
-	
 	margin: 1em 0;
 }
-
-
 
 
 .clearfix:after { 
