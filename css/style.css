@@ -17,9 +17,12 @@ header{
 	color: #FFF;
 	letter-spacing: .5em;
 	padding: 1em;
-	margin-bottom: 2em;
 	text-transform: lowercase;
 	text-align: left;
+}
+
+header h1{
+	float: left;
 }
 
 nav{
@@ -28,10 +31,12 @@ nav{
 	font-size: 1em;
 	font-weight: 100;
 	letter-spacing: .1em;
-	line-height: 1.5em;
-	margin-bottom: 1em;
-	padding: 1em;
+	margin: .5em;
 	text-align: right;
+}
+
+nav a{
+	text-decoration: none;
 }
 
 ul{
@@ -39,39 +44,44 @@ ul{
 }
 
 li{
+	display: inline;
 	padding: 1em;
 	
 }
 
 section#splash {
-	background-color: #00B6BA;
-	border-radius: 1em;
+	background-image: url(../images/episode.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 	height: 60vh;
-	margin: 0 auto;
-	max-width: 1200px;
-
 }
 
-#splash img{
-	border-style: none;
-	border-top-left-radius: 1em;
-	border-bottom-left-radius: 1em;
-	float: left;
-	height: 100%;
-
-}
 
 #slogan{
+	background: #00B6BA;
 	color: #FFF;
-	float: left;
+	float: right;
 	font-family: 'Fauna One', serif;
 	font-style: italic;
-	font-size: 2.5em;
+	font-size: 2em;
 	height: 100%;
 	line-height: 2em;
-	padding: 2em 0 0 1.5em;
+	margin-right: 4em;
+	padding: 1em;
 	text-align: center;
 }	
+
+#tagline{
+	background-color: rgba(0,0,0,.3);
+	color: #FFF;
+	float: left;
+	font-family: 'Muli', sans-serif;
+	font-size: 1.5em;
+	padding: 1em;
+	margin: 2em;
+	width: 25%;
+
+}
 
 h2{
 	font-size: 2em;
@@ -80,6 +90,7 @@ h2{
 	text-transform: lowercase;
 	letter-spacing: .5em;
 }
+
 
 section#podcasts {
 	font-family: 'Muli', sans-serif;
@@ -101,8 +112,8 @@ section#podcasts {
 .episodes img {
 	display:block;
 	float:left;
-	margin: 1em 0;
-	width: 50%;
+	margin: 1%;
+	width: 45%;
 }
 
 .episodes div {
@@ -112,6 +123,32 @@ section#podcasts {
 	width: 50%;
 	margin: 1em 0;
 }
+
+.moreepisodes{
+	background-color: #00B6BA;
+	border-radius: 1em;
+	float:left;
+	text-transform: uppercase;
+	margin: 1%;
+	width: 23%; 
+}
+
+.moreepisodes img{
+	display:block;
+	float:left;
+	margin: 1em 0;
+	width: 50%;
+
+}
+
+.moreepisodes div {
+	color: #FFF;
+	float:left;
+	padding: 5em 1em 0 2em;
+	width: 50%;
+	margin: 1em 0;
+}
+
 
 footer{
 	background: #222;
