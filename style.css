@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body{ 
+	background-image: url(images/background2.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+	font-size: 16px;
+}
+
+div#logo  {
+	
+}
+
+#logo img {
+	float: left;
+	height: 125px;
+
+}
+
+h1{
+	float: right;
+	font-family: 'Poiret One', cursive;
+	font-size: 2.5em;
+	letter-spacing: .1em;
+	padding-top: .2em;
+	
+}
+
+div#splash {
+	height: 60vh;
+}
+
+#intro{
+	background-color: rgba(255,255,255,.8);
+	font-family: 'Lora', serif;
+	float: right;
+	margin-top: 13em;
+	width: 600px;
+}
+
+h2{
+	font-family: 'Poiret One', cursive;
+	letter-spacing: .1em;
+	padding-top: 1em;
+	text-align: center;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 0 2em;
+
+}
+
+nav {
+	background-color: rgba(0,0,0,.1);
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.2em;
+	letter-spacing: .2em;
+	text-align: center
+}
+
+nav a{
+	color: #FFF;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 2em;
+	margin: 0 2em 0 2em;
+	width: 150px;
+}
+
+a:hover{
+	background-color: #aaa;
+}
+
+
+div#items{
+	background-color: rgba(255,255,255,.8);
+	margin: .5em;
+	height: 320px;
+	width: 750px;
+}
+
+.stock{
+	float: left;
+	margin: 1.5%;
+	height: 42%;
+	width: 30.3%;
+}
+
+.stock img{
+	width: 80%;
+	padding-left: 1.4em;
+}
+
+
+#sales {
+	background-color: rgba(255,255,255,.8);
+	margin: .5em;
+	width: 750px;
+}
+
+div#action {
+	float: right;
+	height: 60vh;
+	margin: 0em;
+}
+
+ul {
+	background-color: rgba(255,255,255,.8);
+	list-style: none;
+	padding: 1em 0;
+	text-align: left;
+	width: 250px;
+
+}
+
+li {
+	font-family: 'Raleway', sans-serif;
+	padding: 1em 1em 1em 2em;
+
+}
+
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
