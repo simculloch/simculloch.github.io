@@ -45,6 +45,8 @@ section#new {
 
 #new iframe{
 	padding: 1em;
+	position: relative;
+	top: 1em;
 }
 
 #new div{
