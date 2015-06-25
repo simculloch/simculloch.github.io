@@ -116,7 +116,7 @@ h2{
 
 #podcasts {
 	font-family: 'Muli', sans-serif;
-	padding: 5em;
+	padding: 4em 5em 5em 5em;
 	
 }
 
@@ -145,7 +145,7 @@ h2{
 	margin: 1em 0;
 }
 
-#programs{
+#programming{
 	background-color: #222;
 	color: #FFF;
 	font-family: 'Muli', sans-serif;
@@ -177,7 +177,6 @@ h2{
 	width: 100%;
 
 }
-
 
 footer{
 	background: #222;
