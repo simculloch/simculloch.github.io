@@ -71,7 +71,7 @@ section#new {
 	color: #FFF;
 	float: left;
 	font-family: 'Muli', sans-serif;
-	margin: 5% 1% 5% 1%;
+	margin: 7.5% 1% 10% 1%;
 	position: relative;
 	width: 55%;
 }
@@ -84,20 +84,20 @@ section#new {
 #new h3{
 	float: left;
 	font-size: 1.5em;
-	padding: 1%;
+	padding: 1em 1em 0 1em;
 	
 }
 
 #new p{
 	float: left;
-	padding: 1em;
+	padding: 2em 2em 0 2em;
 	font-size: 1em;
 
 }
 
 #new iframe{
 	float: left;
-	padding: 1%;
+	padding: 1em;
 }
 
 
@@ -145,10 +145,16 @@ h2{
 	margin: 1em 0;
 }
 
+.wrapperprogramming {
+	background-color: #222;
+}
+
 #programming{
 	background-color: #222;
 	color: #FFF;
 	font-family: 'Muli', sans-serif;
+	max-width: 1200px;
+	margin: 0 auto; 
 	padding: 5em;
 }
 
@@ -158,13 +164,12 @@ h2{
 	float:left;
 	text-transform: uppercase;
 	margin: 1%;
-	width: 15%; 
+	width: 18%; 
 }
 
 .shows img{
 	display:block;
-	padding: 2%;
-	margin: 1%;
+	padding: 1%;
 	width: 100%;
 
 }
@@ -185,7 +190,7 @@ footer{
 	padding: 1em;
 }
 
-.clearfix:after { 
+.clearfix:after, .episodes:after { 
 	content: "."; 
 	visibility: hidden; 
 	display: block; 
@@ -214,12 +219,12 @@ footer{
 	}
 
 	.wrappernew {
-		max-width: 900px;
+		max-width: 892px;
 		margin: 0 auto;
 	}
 
 	.wrapper {
-		max-width: 900px;
+		max-width: 892px;
 		margin: 0 auto;
 	}
 
@@ -230,7 +235,7 @@ footer{
 	}
 
 	.episodes {
-		float: left;
+		float: none;
 		margin: 1%;
 		width: 80%
 	}
@@ -260,6 +265,12 @@ footer{
 
 	.shows {
 		width: 20%;
+	}
+
+	#programming {
+		max-width: 900px;
+		margin: 0 auto;
+
 	}
 
 }
@@ -295,7 +306,8 @@ footer{
 	}
 
 	.wrapper {
-		max-width: 725px;
+		max-width: 726px;
+		margin: 0 auto;
 
 	}
 
@@ -306,7 +318,7 @@ footer{
 	}
 
 	.episodes {
-		float: left;
+		float: none;
 		margin: 1%;
 		width: 80%
 	}
@@ -338,9 +350,100 @@ footer{
 		width: 25%;
 	}
 
+	#programming {
+		max-width: 725px;
+		margin: 0 auto;
+
+	}
+
 }
 
-@media only screen and (max-width: 725px) {
+@media only screen and (min-width: 532px) and (max-width: 725px) {
+	header {
+		text-align: center;
+	}
+
+	header h1{
+		float: none;
+		width: 100%;
+	}
+
+	nav {
+		float: none;
+		padding: 1.3em 0 1.4em 0;
+		width: 100%;
+	}
+
+	section#splash {
+		background-image: none;
+		height: 30vh;
+	}
+
+	section#new {
+		padding: 0;
+		margin: 0 0 1em 0;
+		width: 100%;
+	}
+
+	.wrappernew {
+		max-width: none;
+	}
+
+	.wrapper {
+		max-width: 532px;
+		margin: 0 auto;
+
+	}
+
+	#podcasts {
+		padding: 1em;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.episodes {
+		float: none;
+		margin: 1%;
+		width: 100%
+	}
+
+	.episodes h3{
+		font-size: 1.8em;
+		line-height: 1.8em;
+	}
+
+	.episodes p {
+		font-size: 1.3em;
+	}
+
+	.episodes img {
+		float: left;
+		margin: 1%;
+		width: 30%;
+
+	}
+
+	.episodes div {
+		float: left;
+		margin: 1%;
+		padding: 4em 1em 0 1em;
+		width: 60%;
+	}
+
+	.shows {
+		margin: 1%;
+		width: 46%;
+
+	}
+
+	#programming {
+		max-width: 600px;
+		margin: 0 auto;
+
+	}
+}
+
+@media only screen and (min-width: 506px) and (max-width: 531px) {
 	header {
 		text-align: center;
 	}
@@ -371,7 +474,7 @@ footer{
 	}
 
 	.wrapper {
-		max-width: 725px;
+		max-width: 506px;
 
 	}
 
@@ -382,9 +485,9 @@ footer{
 	}
 
 	.episodes {
-		float: left;
+		float: none;
 		margin: 1%;
-		width: 80%
+		width: 100%
 	}
 
 	.episodes h3{
@@ -406,16 +509,101 @@ footer{
 	.episodes div {
 		float: left;
 		margin: 1%;
-		padding: 5em 1em 0 1em;
+		padding: 3em 1em 0 1em;
 		width: 60%;
 	}
 
 	.shows {
 		margin: 1%;
-		width: 46%;
+		width: 48%;
 
 	}
 
+	#programming {
+		max-width: none;
+	}
 }
 
+@media only screen and (max-width: 506px) {
+		header {
+		text-align: center;
+	}
+
+	header h1{
+		float: none;
+		padding: 3em 0 3em 0;
+		height: 30vh;
+		width: 100%;
+	}
+
+	nav {
+		float: none;
+		width: 100%;
+	}
+
+	section#splash {
+		background-image: none;
+		height: 30vh;
+	}
+
+	section#new {
+		padding: 0;
+		margin: 0 0 1em 0;
+		width: 100%;
+	}
+
+	.wrappernew {
+		max-width: none;
+	}
+
+	.wrapper {
+		max-width: none;
+
+	}
+
+	#podcasts {
+		padding: 1em;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.episodes {
+		float: none;
+		margin: 1%;
+		width: 100%
+	}
+
+	.episodes h3{
+		font-size: 1.5em;
+		line-height: 1.5em;
+	}
+
+	.episodes p {
+		font-size: 1em;
+	}
+
+	.episodes img {
+		float: left;
+		margin: 1%;
+		width: 30%;
+
+	}
+
+	.episodes div {
+		float: left;
+		margin: 1%;
+		padding: 3em 1em 0 1em;
+		width: 60%;
+	}
+
+	.shows {
+		margin: 1%;
+		width: 48%;
+
+	}
+
+	#programming {
+		max-width: none;
+
+	}
 }
