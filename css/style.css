@@ -531,8 +531,7 @@ footer{
 
 	header h1{
 		float: none;
-		padding: 2em 0 2em 0;
-		height: 10vh;
+		padding: 1em 0 1em 0;
 		width: 100%;
 	}
 
@@ -543,11 +542,13 @@ footer{
 
 	section#splash {
 		background-image: none;
-		height: 30vh;
+		padding: 0;
+		margin: 0;
 	}
 
 	section#new {
 		padding: 0;
+		margin: 0;
 		width: 100%;
 	}
 
@@ -563,8 +564,8 @@ footer{
 	}
 
 	#podcasts {
-		padding: 1em;
-		margin: 0 auto;
+		padding: 0;
+		margin: 0;
 		width: 100%;
 	}
 
@@ -605,6 +606,7 @@ footer{
 
 	#programming {
 		max-width: none;
+		padding: 0;
 
 	}
 }
