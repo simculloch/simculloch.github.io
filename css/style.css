@@ -491,8 +491,8 @@ footer{
 	}
 
 	.episodes h3{
-		font-size: 1.8em;
-		line-height: 1.8em;
+		font-size: 1.5em;
+		line-height: 1.5em;
 	}
 
 	.episodes p {
@@ -531,8 +531,8 @@ footer{
 
 	header h1{
 		float: none;
-		padding: 3em 0 3em 0;
-		height: 30vh;
+		padding: 2em 0 2em 0;
+		height: 10vh;
 		width: 100%;
 	}
 
@@ -548,16 +548,17 @@ footer{
 
 	section#new {
 		padding: 0;
-		margin: 0 0 1em 0;
 		width: 100%;
 	}
 
 	.wrappernew {
 		max-width: none;
+		margin: 0;
 	}
 
 	.wrapper {
 		max-width: none;
+		margin: 0;
 
 	}
 
@@ -569,13 +570,13 @@ footer{
 
 	.episodes {
 		float: none;
-		margin: 1%;
+		margin: 1% 0 1% 0;
 		width: 100%
 	}
 
 	.episodes h3{
 		font-size: 1.5em;
-		line-height: 1.5em;
+		line-height: 1em;
 	}
 
 	.episodes p {
