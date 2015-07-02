@@ -71,15 +71,11 @@ section#new {
 	color: #FFF;
 	float: right;
 	font-family: 'Muli', sans-serif;
-	margin: 7.5% 1% 10% 1%;
+	margin: 7.5% 1% 15% 1%;
 	position: relative;
-	width: 55%;
+	width: 65%;
 }
 
-#new div{
-	float: left;
-
-}
 
 #new h3{
 	float: left;
@@ -164,7 +160,7 @@ h2{
 }
 
 .shows{
-	background-color: rgba(90,167,186,.9);
+	background-color: #FFF;
 	border-radius: .3em;
 	float:left;
 	text-transform: uppercase;
@@ -180,7 +176,7 @@ h2{
 }
 
 .shows div {
-	color: #FFF;
+	color: rgba(90,167,186,1);
 	padding: 1%;
 	margin: 1%;
 	text-align: center;
@@ -195,6 +191,22 @@ footer{
 	padding: 1em;
 }
 
+footer p {
+	margin: 1em 0 1em 0;
+}
+
+footer a { 
+	background: #222;
+	color: #FFF;
+	display: block;
+	font-family: 'Muli', sans-serif;
+	font-size: .9em;
+	letter-spacing: .2em;
+	padding: 1em;
+	text-decoration: none;
+	width: 25%;
+}
+
 .clearfix:after, .episodes:after { 
 	content: "."; 
 	visibility: hidden; 
@@ -204,7 +216,6 @@ footer{
 }
 
 @media only screen and (min-width: 892px) and (max-width: 1200px) {
-
 	nav {
 		width: 80%;
 	}
@@ -277,14 +288,10 @@ footer{
 }
 
 @media only screen and (min-width: 726px) and (max-width: 891px) {
-	header {
-		text-align: center;
-	}
 
-	header h1{
-		float: none;
-		width: 100%;
-	}
+	header img {
+		margin: 0 auto;
+}
 
 	nav {
 		float: none;
