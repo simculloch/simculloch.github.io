@@ -52,10 +52,12 @@
 }
 
 @media only screen and (min-width: 726px) and (max-width: 891px) {
+	header {
+		background-color: #222;
+	}
 
 	nav {
-		float: none;
-		width: 100%;
+		display: none;
 	}
 
 	section#splash {
@@ -69,12 +71,15 @@
 		width: 100%;
 	}
 
+	.mobile-nav {
+		display: block;
+	}
+
 	.wrappernew {
 		max-width: none;
 	}
 
 	.wrapper {
-		
 		margin: 0 auto;
 
 	}
@@ -125,20 +130,12 @@
 }
 
 @media only screen and (min-width: 532px) and (max-width: 725px) {
-
 	header {
-		text-align: center;
-	}
-
-	header h1{
-		float: none;
-		width: 100%;
+		background-color: #222;
 	}
 
 	nav {
-		float: none;
-		padding: 1.3em 0 1.4em 0;
-		width: 100%;
+		display: none;
 	}
 
 	section#splash {
@@ -152,6 +149,10 @@
 		width: 100%;
 	}
 
+	.mobile-nav {
+		display: block;
+	}
+
 	.wrappernew {
 		max-width: none;
 	}
@@ -163,14 +164,14 @@
 	}
 
 	#podcasts {
-		padding: 1em;
+		padding: 0;
 		margin: 0 auto;
 		width: 100%;
 	}
 
 	.episodes {
 		float: none;
-		margin: 1%;
+		margin: 1% 0 1% 0;
 		width: 100%
 	}
 
@@ -209,17 +210,11 @@
 
 @media only screen and (min-width: 506px) and (max-width: 531px) {
 	header {
-		text-align: center;
-	}
-
-	header h1{
-		float: none;
-		width: 100%;
+		background-color: #222;
 	}
 
 	nav {
-		float: none;
-		width: 100%;
+		display: none;
 	}
 
 	section#splash {
@@ -231,6 +226,10 @@
 		padding: 0;
 		margin: 0 0 1em 0;
 		width: 100%;
+	}
+
+	.mobile-nav {
+		display: block;
 	}
 
 	.wrappernew {
@@ -251,7 +250,7 @@
 
 	.episodes {
 		float: none;
-		margin: 1%;
+		margin: 1% 0 1% 0;
 		width: 100%
 	}
 
@@ -291,35 +290,33 @@
 }
 
 @media only screen and (max-width: 506px) {
-		header {
-		text-align: center;
+	header {
+		background-color: #222;
 	}
-
-	header img{ 
-		margin: 0 auto;
-		padding: 0 5em 1em 5em;
-		width: 100%;
-	}
+	
 	body {
 		background-color: #FFF;
 	}
 
 	nav {
-		float: none;
-		width: 100%;
+		display: none;
 	}
 
 	section#splash {
 		background-image: none;
-	
+		height: auto;
 		padding: 0;
-		margin: 0 auto;
+		margin: 0;
 	}
 
 	section#new {
 		padding: 0;
 		margin: 0;
 		width: 100%;
+	}
+
+	.mobile-nav {
+		display: block;
 	}
 
 	.wrappernew {
