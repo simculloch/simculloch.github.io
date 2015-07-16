@@ -11,7 +11,7 @@
 
 <body>
 	<header class="clearfix">
-		<img src="images/logo10.png">
+		<img src="images/logo10.png" alt"podcal logo">
 			<nav id="navigation">
 				<a href="#">Who We Are</a>
 				<a href="#">Get Involved</a>
@@ -38,6 +38,11 @@
 	</header>
 	<section id="splash" class="clearfix">
 		<div class="wrappernew">
+			<section id="social">
+				<a href="http://www.facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+				<a href="http://www.twitter.com"><img src="images/twitter.png" alt="twitter">
+				<a href="http://www.instagram.com"><img src='images/imstagram.png' alt="instagram"></a>
+			</section>	
 			<section id="new">
 				<h2>Featured Episode</h2>
 				<div>
@@ -195,6 +200,7 @@
 		jQuery(function($){
     	     $( '.menu-btn' ).click(function(){
     	     $('.responsive-menu').toggleClass('expand')
+    	   	$('.responsive-menu').toggleClass('overlay')
     	     })
         })
 </script>

@@ -57,6 +57,7 @@ section#splash{
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 85vh;
+	z-index: 1;
 }
 
 .wrappernew {
@@ -74,6 +75,7 @@ section#new {
 	margin: 7.5% 1% 15% 1%;
 	position: relative;
 	width: 65%;
+	z-index: 1;
 }
 
 
@@ -121,6 +123,7 @@ h2{
 	border-radius: .3em;
 	box-shadow: 0px 2px 1px 0px rgba(0,0,0,.7);
 	float: left;
+	position: relative;
 	text-transform: uppercase;
 	margin: .15%;
 	width: 33%; 
@@ -135,10 +138,9 @@ h2{
 
 .episodes div {
 	color: #FFF;
-	float:left;
-	margin: 1em 0;
-	padding: 4em 1em 0 1em;
-	width: 50%;
+	position: absolute;
+	left: 45%;
+	top: 50%;
 }
 
 .episodes:hover{
@@ -210,13 +212,13 @@ footer a {
 
 .mobile-nav {
 	display: none;
-	float: right;
-	background-color: rgba(90,167,186,.9);
+	background-color: #222;
 	font-family: 'Muli', sans-serif;
 	padding: .7em;
 }
 
 .menu-btn {
+	float: right;
 	padding: .5em;
 }
 
@@ -250,6 +252,7 @@ footer a {
 .responsive-menu li{
 	list-style-type: none;
 	margin: 2em;
+	text-align: right;
 }
 
 .responsive-menu a{
@@ -259,6 +262,12 @@ footer a {
  
 .expand {
 	display: block !important;
+}
+
+.overlay {
+	margin-bottom: .1em;
+	position: relative;
+	z-index: 5;
 }
 
 .clearfix:after, .episodes:after { 

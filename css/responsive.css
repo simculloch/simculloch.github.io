@@ -1,5 +1,6 @@
 @media only screen and (min-width: 892px) and (max-width: 1200px) {
 
+
 	section#splash {
 		height: 70vh;
 	}
@@ -8,8 +9,6 @@
 		margin: none;
 
 	}
-
-
 	.wrapper {
 		max-width: none;
 		margin: 0 auto;
@@ -43,17 +42,13 @@
 
 	}
 
-	.episodes div {
-		float: left;
-		margin: 1%;
-		padding: 7em 1em 0 1em;
-		width: 60%;
-	}
+
 }
 
 @media only screen and (min-width: 726px) and (max-width: 891px) {
 	header {
 		background-color: #222;
+		height: none;
 	}
 
 	nav {
@@ -61,6 +56,7 @@
 	}
 
 	section#splash {
+		background-color: rgba(90,167,186,.4);
 		background-image: none;
 		height: 30vh;
 	}
@@ -112,14 +108,9 @@
 
 	}
 
-	.episodes div {
-		float: left;
-		margin: 1%;
-		padding: 5em 1em 0 1em;
-		width: 60%;
-	}
-	
 	#programming {
+		background-color: #222;
+		color: #FFF;
 		padding: 1em;
 	}
 
@@ -130,6 +121,7 @@
 }
 
 @media only screen and (min-width: 532px) and (max-width: 725px) {
+
 	header {
 		background-color: #222;
 	}
@@ -140,6 +132,7 @@
 
 	section#splash {
 		background-image: none;
+		background-color: rgba(90,167,186,.4);
 		height: 30vh;
 	}
 
@@ -160,12 +153,12 @@
 	.wrapper {
 		max-width: none;
 		margin: 0 auto;
-
 	}
 
 	#podcasts {
 		padding: 0;
 		margin: 0 auto;
+		margin-bottom: 1em;
 		width: 100%;
 	}
 
@@ -191,18 +184,14 @@
 
 	}
 
-	.episodes div {
-		float: left;
-		margin: 1%;
-		padding: 4em 1em 0 1em;
-		width: 60%;
-	}
-
 	#programming {
+		background-color: #FFF;
+		color: #222;
 		padding: 1em;
 	}
 
 	.shows {
+		background-color: #222;
 		width: 31.3%;
 	}
 
@@ -219,6 +208,7 @@
 
 	section#splash {
 		background-image: none;
+		background-color: rgba(90,167,186,.4);
 		height: 30vh;
 	}
 
@@ -270,22 +260,17 @@
 
 	}
 
-	.episodes div {
-		float: left;
-		margin: 1%;
-		padding: 3em 1em 0 1em;
-		width: 60%;
-	}
-
-	.shows {
-		width: 48%;
-
-	}
-
 	#programming {
+		background-color: #FFF;
+		color: #222;
 		padding: 0;
 	}
 
+	.shows {
+		background-color: #222;
+		width: 48%;
+
+	}
 
 }
 
@@ -304,6 +289,7 @@
 
 	section#splash {
 		background-image: none;
+		background-color: rgba(90,167,186,.4);
 		height: auto;
 		padding: 0;
 		margin: 0;
@@ -355,21 +341,16 @@
 		float: left;
 		margin: 1%;
 		width: 30%;
-
-	}
-
-	.episodes div {
-		float: left;
-		margin: 1%;
-		padding: 3em 1em 0 1em;
-		width: 60%;
 	}
 
 	#programming {
+		background-color: #FFF;
+		color: #222;
 		padding: 0;
 	}
 
 	.shows {
+		background-color: #222;
 		margin: 1%;
 		width: 48%;
 
