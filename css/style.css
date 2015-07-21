@@ -18,6 +18,7 @@ header{
 	letter-spacing: .5em;
 	text-transform: lowercase;
 	text-align: left;
+	z-index: 100;
 }
 
 header > img {
@@ -26,6 +27,7 @@ header > img {
 	float: left;
 	margin: 1em;
 	width: 8em;
+	z-index: 100;
 	
 }
 
@@ -245,18 +247,21 @@ footer a {
 }
  
 .responsive-menu{
+	background-color: #222;
 	display: none;
-
 }
 
 .responsive-menu li{
 	list-style-type: none;
 	margin: 2em;
+	padding-bottom: 2em;
 	text-align: right;
+
 }
 
 .responsive-menu a{
 	color: #FFF;
+	padding: 1em;
 	text-decoration: none;
 }
  
@@ -266,6 +271,7 @@ footer a {
 
 .overlay {
 	margin-bottom: .1em;
+	margin-left: 9.5em;
 	position: relative;
 	z-index: 5;
 }

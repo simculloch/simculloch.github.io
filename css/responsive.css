@@ -1,4 +1,4 @@
-@media only screen and (min-width: 892px) and (max-width: 1200px) {
+@media only screen and (min-width: 838px) and (max-width: 1200px) {
 
 
 	section#splash {
@@ -45,7 +45,7 @@
 
 }
 
-@media only screen and (min-width: 726px) and (max-width: 891px) {
+@media only screen and (min-width: 726px) and (max-width: 837px) {
 	header {
 		background-color: #222;
 		height: none;
@@ -274,7 +274,7 @@
 
 }
 
-@media only screen and (max-width: 506px) {
+@media only screen and (min-width: 460px) and (max-width: 506px) {
 	header {
 		background-color: #222;
 	}
@@ -360,3 +360,104 @@
 		width: 100%;
 	}
 }
+
+@media only screen and (max-width: 459px) {
+	header {
+		background-color: #222;
+	}
+	
+	body {
+		background-color: #FFF;
+	}
+
+	nav {
+		display: none;
+	}
+
+	section#splash {
+		background-image: none;
+		background-color: rgba(90,167,186,.4);
+		height: auto;
+		padding: 0;
+		margin: 0;
+	}
+
+	section#new {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+	.mobile-nav {
+		display: block;
+	}
+
+	.wrappernew {
+		max-width: none;
+		margin: 0;
+	}
+
+	.wrapper {
+		max-width: none;
+		margin: 0;
+
+	}
+
+	#podcasts {
+		padding: 0;
+		margin: 0;
+		width: 100%;
+	}
+
+	.episodes {
+		float: none;
+		margin: 1% 0 1% 0;
+		width: 100%
+	}
+
+	.episodes h3{
+		font-size: 1.5em;
+		line-height: 1em;
+	}
+
+	.episodes p {
+		font-size: 1em;
+	}
+
+	.episodes img {
+		float: left;
+		margin: 1%;
+		width: 30%;
+	}
+
+	#programming {
+		background-color: #FFF;
+		color: #222;
+		padding: 0;
+	}
+
+	.shows {
+		background-color: #222;
+		margin: 1%;
+		width: 48%;
+
+	}
+
+	.responsive-menu li{
+		margin: 1em;	
+	}
+
+	.responsive-menu a{
+		padding: 0em;
+	}
+
+	.overlay {
+		margin-left: 0em;
+		
+	}
+
+	footer a {
+		width: 100%;
+	}
+}
+
